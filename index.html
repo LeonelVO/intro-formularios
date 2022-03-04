@@ -5,48 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Agrega CSS al html -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sing up for Schoology account</title>
 </head>
 
 <body>
-    
-    <header>
+    <header class="navbar">
         <nav>
             <div>
-                <img src="" alt="">
+                <a href="https://www.schoology.com/" target="blanck">
+                    <img class="logo" src="img/logo.png" alt="Schoology logo">
+                </a>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-page">
         <section>
-            <div>
+            <div class="tittle-form">
                 <div>
-                  <span>Sign up for Schoology</span>  
+                    <span>Sing up for Schoology</span>
                 </div>
                 <div>
-                <span>
-                    <a href="http://app.schoology.com/register.php" >Back</a>
-                </span>
+                    <a href="https://app.schoology.com/register.php" target="blank">Back</a>
                 </div>
+
             </div>
-            <div>
-                <input type="text" name="" id="">
+
+            <div class="box-text">
+                <input type="text" name="Access code" id="" placeholder="Access Code">
             </div>
-            <div>
-                Enter the access code provided by your instructor 
+
+            <div class="texto">
+                <span>Enter the access code provided by your instructor</span>
             </div>
-            <div>
-                <button> Continue </button>
+            <div class="boton">
+                <input type="submit" value="Continue">
             </div>
         </section>
     </main>
     <footer>
-        <div>Schoology © 2022 · 
-            <a href="https://www.powerschool.com/privacy">PRIVACY POLICY · </a> 
-            <a href="https://www.schoology.com/terms-of-use">Terms of Use · </a> 
-            <a href="https://support.schoology.com/hc/en-us">Help Center </a> </div>
+        <div>
+            <span>Schology © 2022</span>
+            <span class="final">·</span>
+            <a href="https://www.powerschool.com/privacy" target="blank"> 
+                <b>
+                    PRIVACY POLICY
+                </b>
+             </a>
+             <span class="final">·</span>
+            <a href="https://www.schoology.com/terms-of-use" target="blank">Term of Use</a>
+            <span class="final">·</span>
+            <a href="https://support.schoology.com/hc/en-us" target="blank">Help Center</a>
+        </div>
     </footer>
-    
 </body>
-
 </html>

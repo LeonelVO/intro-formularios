@@ -1,0 +1,111 @@
+body
+{
+    background: #6bd5e7;
+    display: flex;/* Indicar que los hijos trabajaran con flex */
+    flex-direction: column;
+    padding: 0px; /*Margen */
+    margin: 0px; /* / que tan pegados quieres lo elemetos / */
+}
+.navbar
+{
+    background-color: #1e83c0;
+    display: flex;/* / Indicar que los hijos trabajaran con flex / */
+    align-items: center;
+    padding: 15px 0px 15px 100px;
+   /* /padding-top: 10px;
+   padding-bottom: 10px;/ */
+}
+/* /.logo
+{
+    width:300px;
+    height:150px
+}/ */
+.main-page
+{
+    background-color: #f9f9f8;
+    padding: 130px 0px 150px 0px;
+    display: flex;
+    justify-content: center;
+}
+section
+{
+    background-color:white;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    width: 30em;
+    padding: 20px;
+}
+.tittle-form
+{
+  /*  / margin: 0px 0px, 20px, 0px ;*/ 
+   margin-bottom: 20;
+   display: flex;
+
+   justify-content: space-between;
+
+}
+
+.tittle-form span
+{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.tittle-form a
+{
+    color: rgba(78, 78, 78);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.box-text input
+{
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: #f8f6f6;
+    border: 1px solid #e9e8e8;
+    font-size: 14px;
+    width: 95%;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.texto span
+{
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: rgb(145, 144, 144);
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+
+}
+
+.boton input
+{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: 1px solid #cacaca;
+    font-size: 17px;
+    background: #65c1e0;
+    width: 97%;
+    height: 35px;
+    margin: 15px 0px 15px 0px;
+  
+    
+}
+
+footer {
+    padding: 50PX 0PX 203PX 100PX;
+    background-color: #EEEEEE;
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+footer a {
+    color: #556370;
+    text-decoration: none;
+}
